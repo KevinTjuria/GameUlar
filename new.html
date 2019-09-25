@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        var name = "Kevin"
+        var age = 16;
+        var money = 50;
+
+        if (name === ""){
+            console.log('Anda tidak boleh masuk')
+        }else{
+            if(age <17){
+              if(money < 50000 ){
+                  console.log("Uang tidak cukup,Anda harus pulang")
+              }else{
+                  var kembalian = money - 50000
+                  console.log("Anda bisa pesan minum.Sisa uang anda"+ kembalian)
+              }
+
+            }else{
+             if (money < 300000){
+                 console.log ("Uang tidak cukup,Anda harus pulang")
+             }else if(money >= 300000){
+                 console.log("Anda bisa pesan minum.Sisa uanag anda"+(money-300000))
+             }
+            }
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

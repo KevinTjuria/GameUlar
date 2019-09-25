@@ -1,0 +1,11 @@
+STORE "kecepatan becak saat kosong" = 20km/jam
+STORE "(total penumpang)" = 4 orang
+if x <=4
+ if "maksimal penumpang" 4 orang
+        do "kecepatan berkurang 7km/jam
+ if "maksimal penumpang" >2 orang
+        do "kecepatan berkurang 5km/jam
+     else
+       kecepatan berkurang 2km/jam
+
+        

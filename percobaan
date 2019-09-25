@@ -1,0 +1,29 @@
+if (name){
+    console.log("submitted")
+}else if (name){
+    console.log("please input your name")
+
+}else {
+    console.log('please input your name')
+}
+
+    if (addres){
+        console.log("submitted")
+
+    }else if(addres){
+        console.log("please input your addres")
+
+    }else{
+        console.log("please input your addres")
+    }
+
+if(phonenumber){
+    console.log("submitted")
+
+}else if(phonenumber){
+    console.log("please input your phonenumber")
+}else{
+    console.log("please input your phonenumber")
+}
+
+
